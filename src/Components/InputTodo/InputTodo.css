@@ -1,0 +1,22 @@
+.input {
+  width: 250px;
+  height: 25px;
+  outline: none;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.btn-add-todo {
+  width: 80px;
+  height: 30px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  color: rgb(43, 42, 42);
+  border-radius: 2px;
+  background-color: #6ebf8b;
+}
+.btn-add-todo:hover {
+  background-color: rgb(22, 85, 22);
+  color: white;
+}

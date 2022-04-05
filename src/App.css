@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.container-principal {
+  width: 370px;
+  height: 700px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.todo-title > h2 {
+  color: #6ebf8b;
+  text-shadow: 2px 2px 5px black;
+}
+.input-todo {
+  display: flex;
+  width: 350px;
+  align-items: center;
+  justify-content: space-around;
+}
+.container-todo {
+  width: 350px;
+  height: 500px;
+
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.575);
+  overflow-y: auto;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #151d3b;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
